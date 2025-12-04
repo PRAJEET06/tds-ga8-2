@@ -1,0 +1,57 @@
+/* ===========================================================
+   Custom Marp Theme
+   File: custom-theme.css
+   Author: 24f2004065@ds.study.iitm.ac.in
+   Description: Custom theme for Marp slides
+   =========================================================== */
+
+/* Import a modern Google font */
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap';
+
+/* Base slide styling */
+section {
+  font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  font-size: 1.25rem;
+  color: #e6eef8;
+  background-color: #0b1020;
+}
+
+/* Title slide styling */
+section.title-slide h1 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  color: #f8fafc;
+}
+
+/* Accent color for headers */
+h1, h2, h3 {
+  color: #7dd3fc;
+}
+
+/* Code block styling */
+pre code {
+  border-radius: 8px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  font-size: 0.95rem;
+}
+
+/* Page numbers */
+.marp-paginate {
+  position: absolute;
+  bottom: 12px;
+  right: 20px;
+  color: rgba(255, 255, 255, 0.65);
+  font-size: 0.85rem;
+}
+
+/* Background image readability */
+section[style*="background-image"] {
+  color: #ffffff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+}
+
+/* Optional spacing tweaks */
+ul, ol {
+  margin-left: 1.2rem;
+}
