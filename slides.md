@@ -46,3 +46,11 @@ Notes:
 npm i -g acme-widget-cli
 # init project
 acme init myproject
+
+<!-- backgroundImage: url('assets/bg-product.png') -->
+<!-- backgroundSize: cover -->
+<!-- backgroundPosition: center -->
+<!-- backgroundRepeat: no-repeat -->
+# Visual Overview — Background Image Slide
+
+This slide intentionally uses a background image.
